@@ -81,13 +81,9 @@ export function Register() {
                 Password
               </Label>
               <div className="relative">
-                <span
-                  style={{
-                    backgroundImage: `url(${lockIcon})`,
-                    backgroundSize: "100% 100%",
-                  }}
-                  className="absolute w-4 h-4 flex items-center justify-center top-[11px] left-[10px]"
-                ></span>
+                <span className="absolute w-4 h-4 flex items-center justify-center top-[11px] left-[10px]">
+                  <img src={lockIcon} alt="" />
+                </span>
                 <Input
                   className="connectInput focus:shadow-md m-0 pl-[34px] py-2 rounded-[256px] focus-visible:ring-0 outline-none focus-visible:ring-offset-0"
                   id="password"
@@ -99,12 +95,10 @@ export function Register() {
                   onClick={() =>
                     setShow(show === "password" ? "text" : "password")
                   }
-                  style={{
-                    backgroundImage: `url(${eyeIcon})`,
-                    backgroundSize: "100% 100%",
-                  }}
                   className="absolute w-4 h-4 flex items-center justify-center top-[11px] right-[10px]"
-                ></button>
+                >
+                  <img src={eyeIcon} alt="eye" />
+                </button>
               </div>
             </div>
             <div className="flex items-center justify-start gap-2">
