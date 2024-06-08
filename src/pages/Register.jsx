@@ -123,7 +123,7 @@ export function Register() {
           className="text-[14px] leading-5 text-[#06B6D4] hover:text-[#ea1538] transition-all duration-500 ease-linear"
           href="https://docs.google.com/document/d/1fOcf6zvhTmT7vQxsDRCkxlj4EqzTuLIN/edit?usp=sharing&ouid=101136358082815035893&rtpof=true&sd=true"
         >
-          Create an account
+          {"Create an account"}
         </a>
       </div>
     </Card>
